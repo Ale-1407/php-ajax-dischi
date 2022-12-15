@@ -1,0 +1,21 @@
+.cont-card{
+    margin: auto;
+    padding: 5rem;
+    gap: 20px;
+}
+
+.cards{
+    padding: 20px;
+    background-color: #2e3a46;
+    color: white;
+    text-align: center;
+}
+
+.cards img{
+    aspect-ratio: 0.5/0.5;
+}
+
+.card-text, 
+.card-title{
+    font-weight: bold;
+}

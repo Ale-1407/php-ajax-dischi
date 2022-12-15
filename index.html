@@ -11,6 +11,17 @@
 <body>
 
     <div id="app">
+
+        <div class="cont-card w-75 d-flex flex-wrap" v-for="(elem, index) in arrayDischi" :key="index" >
+           <div class="cards" style="width: 11rem;">
+              <img :src="elem.poster" class="card-img-top" alt="...">
+              <div class="card-body">
+                 <h5 class="card-title py-2 text-uppercase">{{elem.title}}</h5>
+                 <span class="card-text d-block text-secondary">{{elem.author}}</span>
+                 <span class="card-text text-secondary">{{elem.year}}</span>
+             </div>
+           </div> 
+       </div>
         
 
 
