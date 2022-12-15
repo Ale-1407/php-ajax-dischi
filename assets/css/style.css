@@ -22,7 +22,7 @@ main{
 .cont-card{
     width: calc( 100% / 2);
     margin: auto;
-    gap: 20px;
+    gap: 30px;
     padding: 20px;
 }
 
